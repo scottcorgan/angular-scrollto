@@ -1,4 +1,6 @@
-angular.module('scroll')
+angular.module('scrollto', []);
+
+angular.module('scrollto')
   .directive('scrollTo', ['$timeout', function ($timeout) {
     
     function scroll (settings) {
