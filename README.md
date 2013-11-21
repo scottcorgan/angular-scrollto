@@ -37,6 +37,11 @@ Use as directive
 
 ## Options
 
+#### scroll-to
+**Requred**
+
+Element to scoll to when current element is clicked.
+
 #### offset
 Default value: `0`
 
