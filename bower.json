@@ -1,0 +1,26 @@
+{
+  "name": "angular-scrollto",
+  "version": "0.1.0",
+  "homepage": "https://github.com/scottcorgan/angular-scrollto",
+  "authors": [
+    "Scott Corgan <scottcorgan@gmail.com>"
+  ],
+  "description": "Angular directive to scroll to element by selector",
+  "main": "angular-scrollto.min.js",
+  "keywords": [
+    "angular",
+    "scroll",
+    "directive"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.js",
+    ".gitignore",
+    "package.json"
+  ]
+}
