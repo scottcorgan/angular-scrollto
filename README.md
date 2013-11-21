@@ -15,7 +15,7 @@ NPM
 
 ```
 npm install angular-scrollto --save
-````=
+```
 
 ## Usage
 
