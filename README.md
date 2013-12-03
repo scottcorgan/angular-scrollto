@@ -3,6 +3,8 @@ angular-scrollto
 
 Angular directive to scroll to element by selector.
 
+Requires jQuery. Soon, there will be a non-jQuery version as well.
+
 ## Install
 
 Bower
