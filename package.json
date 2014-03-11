@@ -1,6 +1,6 @@
 {
   "name": "angular-scrollto",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Angular directive to scroll to element by selector",
   "main": "angular-scrollto.js",
   "scripts": {
