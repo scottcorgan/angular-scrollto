@@ -30,7 +30,7 @@ angular.module('myApp', ['scrollto']);
 Use as directive
 
 ```html
-<a href="" scroll-to="#element" offset="0" container="window">Go to element</a>
+<a href="" scroll-to="#element" offset="0" container="html, body">Go to element</a>
 
 <div id="element">
   You will scroll to me
@@ -55,6 +55,6 @@ Default value: `150`
 Length of time, in milliseconds, the animation will take.
 
 #### container
-Default value: `window`
+Default value: `html, body`
 
 The container element to scroll.
