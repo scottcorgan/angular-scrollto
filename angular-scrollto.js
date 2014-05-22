@@ -14,7 +14,7 @@ angular.module('scrollto')
 
           var scrollTo = (typeof settings.scrollTo == "number") ? settings.scrollTo : angular.element(settings.scrollTo);
 
-          if (typeof scrollTo == 'undefined') { return; } // element no longer available
+          if (typeof scrollTo.offset() == 'undefined') { return; } // element no longer available
 
           var scrollY = (typeof scrollTo == "number") ? scrollTo : scrollTo.offset().top - settings.offset;
 
