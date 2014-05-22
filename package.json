@@ -1,6 +1,6 @@
 {
   "name": "angular-scrollto",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Angular directive to scroll to element by selector",
   "main": "angular-scrollto.js",
   "scripts": {
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scottcorgan/angular-scrollto.git"
+    "url": "https://github.com/mkirchstein/angular-scrollto.git"
   },
   "keywords": [
     "angular",
     "scroll",
     "directive"
   ],
-  "author": "Scott Corgan",
+  "author": "Scott Corgan, Matt Kirchstein",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scottcorgan/angular-scrollto/issues"
+    "url": "https://github.com/mkirchstein/angular-scrollto/issues"
   },
   "devDependencies": {
     "grunt": "~0.4.2",

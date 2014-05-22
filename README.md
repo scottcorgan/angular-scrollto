@@ -58,3 +58,10 @@ Length of time, in milliseconds, the animation will take.
 Default value: `html, body`
 
 The container element to scroll.
+
+### [UPDATED 2014-05-21] Included hook allow the scrolling action to be triggered from a controller 
+
+Added a `triggerScroll(delay)` function that will trigger the scroll action after an optional delay (in milliseconds)
+
+
+
