@@ -40,7 +40,7 @@ Use as directive
 ## Options
 
 #### scroll-to
-**Requred**
+**Required**
 
 Element to scoll to when current element is clicked.
 
