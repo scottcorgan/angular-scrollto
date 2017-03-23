@@ -58,3 +58,30 @@ Length of time, in milliseconds, the animation will take.
 Default value: `html, body`
 
 The container element to scroll.
+
+## Config
+
+You can globally configure the options by using the scrollToConfigProvider:
+
+```
+(function () {
+    'use strict';
+
+    angular.module('app.core')
+        .config(configure);
+
+    /* @ngInject */
+    function configure(scrollToConfigProvider) {
+        scrollToConfigProvider.config.offset = 80;
+        scrollToConfigProvider.config.duration = 200;
+        scrollToConfigProvider.config.container = 'body';
+    }
+})();
+```
+
+### [UPDATED 2014-05-21] Included hook allow the scrolling action to be triggered from a controller 
+
+Added a `triggerScroll(delay)` function that will trigger the scroll action after an optional delay (in milliseconds)
+
+
+
